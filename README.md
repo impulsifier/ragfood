@@ -1,146 +1,107 @@
-Here’s a clear, beginner-friendly `README.md` for your RAG project, designed to explain what it does, how it works, and how someone can run it from scratch.
+# RAG Food System — Ranne Lourd Sanedrin
+
+This project is an enhanced version of the RAG Food System originally developed by Callum James. It uses Retrieval Augmented Generation to answer food related questions by retrieving relevant information from a local food database and generating accurate responses using a large language model. This version adds 15 new food items covering Filipino cuisine, healthy foods, and popular international dishes.
 
 ---
 
-## 📄 `README.md`
+## New Food Items Added
 
-````markdown
-# 🧠 RAG-Food: Simple Retrieval-Augmented Generation with ChromaDB + Ollama
+**Filipino Cuisine**
 
-This is a **minimal working RAG (Retrieval-Augmented Generation)** demo using:
+Adobo — The unofficial national dish of the Philippines made with chicken or pork marinated in vinegar, soy sauce, garlic, and bay leaves.
 
-- ✅ Local LLM via [Ollama](https://ollama.com/)
-- ✅ Local embeddings via `mxbai-embed-large`
-- ✅ [ChromaDB](https://www.trychroma.com/) as the vector database
-- ✅ A simple food dataset in JSON (Indian foods, fruits, etc.)
+Sinigang — A sour tamarind based soup with pork, shrimp, or fish and fresh vegetables considered the ultimate Filipino comfort food.
+
+Kare-Kare — A rich peanut sauce stew made with oxtail and vegetables traditionally served with fermented shrimp paste.
+
+Lechon — A whole roasted pig slow cooked over charcoal until the skin is golden and crispy served at Filipino celebrations.
+
+Halo-Halo — A colorful Filipino dessert of crushed ice, evaporated milk, sweetened beans, fruits, ube ice cream, and leche flan.
+
+**Healthy Foods**
+
+Quinoa — An ancient grain from South America containing all nine essential amino acids and naturally gluten-free.
+
+Kale — A nutrient dense leafy green rich in vitamins K, A, and C with powerful antioxidants linked to reduced disease risk.
+
+Salmon — A fatty fish rich in omega-3 acids providing 25 grams of protein per 100 grams beneficial for heart and brain health.
+
+Avocado — A creamy fruit from Central America rich in heart healthy monounsaturated fats and essential vitamins.
+
+Lentils — An affordable plant based protein source providing 18 grams of protein per cup and naturally vegan and gluten-free.
+
+**International Dishes**
+
+Pad Thai — A Thai stir fried rice noodle dish with eggs, tofu or shrimp, tamarind sauce, and crushed peanuts.
+
+Paella — A traditional Spanish rice dish from Valencia cooked with saffron, olive oil, and a variety of proteins.
+
+Butter Chicken — A mildly spiced Indian curry with tandoor grilled chicken in a creamy tomato based sauce.
+
+Tacos — A traditional Mexican street food of corn or wheat tortillas filled with grilled meats, salsa, and guacamole.
+
+Croissant — A buttery French pastry made with laminated dough creating hundreds of flaky layers eaten at breakfast.
 
 ---
 
-## 🎯 What This Does
+## Installation and Setup
 
-This app allows you to ask questions like:
-
-- “Which Indian dish uses chickpeas?”
-- “What dessert is made from milk and soaked in syrup?”
-- “What is masala dosa made of?”
-
-It **does not rely on the LLM’s built-in memory**. Instead, it:
-
-1. **Embeds your custom text data** (about food) using `mxbai-embed-large`
-2. Stores those embeddings in **ChromaDB**
-3. For any question, it:
-   - Embeds your question
-   - Finds relevant context via similarity search
-   - Passes that context + question to a local LLM (`llama3.2`)
-4. Returns a natural-language answer grounded in your data.
-
----
-
-## 📦 Requirements
-
-### ✅ Software
-
-- Python 3.8+
-- Ollama installed and running locally
-- ChromaDB installed
-
-### ✅ Ollama Models Needed
-
-Run these in your terminal to install them:
-
-```bash
-ollama pull llama3.2
+Clone the repository and navigate to the project folder. Install Python 3.11.9 as it is the recommended version for compatibility with ChromaDB. Run the dependency installation command and pull the required Ollama models before starting the application.
+```
+git clone https://github.com/impulsifier/ragfood
+cd ragfood
+```
+```
+python -m pip install chromadb requests
+```
+```
 ollama pull mxbai-embed-large
-````
-
-> Make sure `ollama` is running in the background. You can test it with:
->
-> ```bash
-> ollama run llama3.2
-> ```
-
----
-
-## 🛠️ Installation & Setup
-
-### 1. Clone or download this repo
-
-```bash
-git clone https://github.com/yourname/rag-food
-cd rag-food
+ollama pull llama3.2
 ```
-
-### 2. Install Python dependencies
-
-```bash
-pip install chromadb requests
 ```
-
-### 3. Run the RAG app
-
-```bash
 python rag_run.py
 ```
 
-If it's the first time, it will:
+---
 
-* Create `foods.json` if missing
-* Generate embeddings for all food items
-* Load them into ChromaDB
-* Run a few example questions
+## Sample Queries and Expected Responses
+
+| Query | Expected Response |
+|---|---|
+| What is Adobo? | Filipino dish marinated in vinegar, soy sauce, garlic, and bay leaves |
+| Which foods are high in protein? | Lentils and Salmon |
+| Tell me about Filipino foods | Overview of Sinigang, Adobo, and Lechon |
+| What vegan options are available? | Lentils, Kale, Avocado |
+| What foods can be grilled? | Chicken and grilled meats |
+| What is Sinigang? | Sour tamarind based Filipino soup |
+| What are healthy gluten free foods? | Lentils, Quinoa, Kale |
+| Tell me about Spanish cuisine | Overview of Paella and Spanish food culture |
+| What is Halo-Halo? | Filipino dessert with crushed ice and mixed sweet ingredients |
+| What international dishes use rice? | Nasi Lemak, Paella, Pad Thai |
 
 ---
 
-## 📁 File Structure
+## Personal Reflection
 
-```
-rag-food/
-├── rag_run.py       # Main app script
-├── foods.json       # Food knowledge base (created if missing)
-├── README.md        # This file
-```
+This project provided a comprehensive and hands on introduction to Retrieval Augmented Generation as a practical AI development technique. Before this workshop my understanding of RAG was largely theoretical. Building and testing this system from scratch changed that significantly.
 
----
+The most valuable technical insight was understanding how vector embeddings work in practice. When a query is entered the system converts it into a numerical vector and finds the most semantically similar vectors in the ChromaDB database. This means a question about protein rich foods can correctly retrieve information about salmon and lentils even if the exact phrase does not appear in those descriptions.
 
-## 🧠 How It Works (Step-by-Step)
+Setting up the environment presented real challenges. Python 3.14 was incompatible with ChromaDB due to Pydantic version conflicts requiring a downgrade to Python 3.11.9. The GitHub MCP server also initially failed because it was configured to use Docker which was not installed.
 
-1. **Data** is loaded from `foods.json`
-2. Each entry is embedded using Ollama's `mxbai-embed-large`
-3. Embeddings are stored in ChromaDB
-4. When you ask a question:
+These troubleshooting experiences were frustrating in the moment but ultimately deepened my understanding of dependency management and environment configuration. Adding the 15 food items also taught me the importance of description quality in RAG systems. The more detailed the text the better the system performs at retrieving relevant results.
 
-   * The question is embedded
-   * The top 1–2 most relevant chunks are retrieved
-   * The context + question is passed to `llama3.2`
-   * The model answers using that info only
+The next steps include experimenting with different embedding models to compare retrieval accuracy. Building a RAG system around a different domain such as a business knowledge base is also a priority. This project has given me a strong foundation to continue growing as an AI Builder.
 
 ---
 
-## 🔍 Try Custom Questions
-
-You can update `rag_run.py` to include your own questions like:
-
-```python
-print(rag_query("What is tandoori chicken?"))
-print(rag_query("Which foods are spicy and vegetarian?"))
+Original repository: https://github.com/gocallum/ragfood
 ```
 
 ---
 
-## 🚀 Next Ideas
-
-* Swap in larger datasets (Wikipedia articles, recipes, PDFs)
-* Add a web UI with Gradio or Flask
-* Cache embeddings to avoid reprocessing on every run
-
----
-
-## 👨‍🍳 Credits
-
-Made by Callum using:
-
-* [Ollama](https://ollama.com)
-* [ChromaDB](https://www.trychroma.com)
-* [mxbai-embed-large](https://ollama.com/library/mxbai-embed-large)
-* Indian food inspiration 🍛
-
+Paste this into your README.md, save, and push with:
+```
+git add README.md
+git commit -m "Update README with enhancements and personal reflection"
+git push

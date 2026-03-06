@@ -448,5 +448,95 @@
   "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
   "region": "Mongolia",
   "type": "Beverage"
-}
+},
+{
+    "id": "76",
+    "text": "Adobo is a iconic Filipino dish considered the unofficial national dish of the Philippines. It is prepared by marinating chicken or pork in a mixture of vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then slowly braised until tender. The vinegar acts as a natural preservative making it last longer without refrigeration. Adobo is deeply rooted in Filipino culture and every family has their own version passed down through generations. It is gluten-free adaptable and pairs well with steamed white rice.",
+    "region": "Philippines",
+    "type": "Main Dish"
+  },
+  {
+    "id": "77",
+    "text": "Sinigang is a sour tamarind based soup that is one of the most beloved dishes in Filipino cuisine. It typically contains pork, shrimp, or fish cooked with vegetables such as kangkong, eggplant, radish, and green beans in a tangy tamarind broth. The sourness of the soup is its defining characteristic and can also be made using guava, calamansi, or green mango as souring agents. Sinigang is considered comfort food in the Philippines and is commonly eaten during rainy weather. It is rich in vitamins from the vegetables and is a good source of protein.",
+    "region": "Philippines",
+    "type": "Soup"
+  },
+  {
+    "id": "78",
+    "text": "Kare-Kare is a rich and hearty Filipino stew made with oxtail, tripe, or beef slow cooked in a thick peanut sauce with vegetables such as eggplant, banana blossom, and string beans. It is traditionally served with bagoong, a fermented shrimp paste that balances the richness of the peanut broth. Kare-Kare is a festive dish often prepared during special occasions and family gatherings in the Philippines. The dish has pre-colonial roots and reflects the indigenous use of peanuts and local vegetables in Filipino cooking.",
+    "region": "Philippines",
+    "type": "Stew"
+  },
+  {
+    "id": "79",
+    "text": "Lechon is a whole roasted pig that is the centerpiece of Filipino celebrations and fiestas. The pig is stuffed with lemongrass, garlic, onions, and bay leaves then slow roasted over charcoal for several hours until the skin becomes golden and incredibly crispy. Lechon is a symbol of festivity and abundance in Filipino culture and is served at birthdays, weddings, and Christmas celebrations. The Cebu style lechon is particularly famous throughout Asia for its crispy skin and flavorful meat that requires no sauce.",
+    "region": "Philippines",
+    "type": "Main Dish"
+  },
+  {
+    "id": "80",
+    "text": "Halo-Halo is a popular Filipino dessert and refreshment made with crushed ice, evaporated milk, and a colorful mixture of ingredients including sweetened beans, coconut strips, plantains, sweet potato, jelly, and topped with ube ice cream and leche flan. The name literally means mix mix in Filipino reflecting how the dessert is enjoyed by mixing all ingredients together before eating. Halo-Halo is especially popular during the hot summer months and represents the diverse and colorful nature of Filipino food culture. It is vegetarian friendly.",
+    "region": "Philippines",
+    "type": "Dessert"
+  },
+  {
+    "id": "81",
+    "text": "Quinoa is a highly nutritious ancient grain originally cultivated by the Inca civilization in the Andes mountains of South America. It is one of the few plant foods that contains all nine essential amino acids making it a complete protein source. Quinoa is also rich in fiber, magnesium, iron, zinc, and antioxidants. It is naturally gluten-free making it an excellent grain alternative for people with celiac disease. One cup of cooked quinoa contains approximately 8 grams of protein and 5 grams of fiber supporting muscle repair and digestive health.",
+    "region": "South America",
+    "type": "Grain"
+  },
+  {
+    "id": "82",
+    "text": "Kale is a dark leafy green vegetable belonging to the cruciferous family and is widely regarded as one of the most nutrient dense foods on the planet. It is exceptionally high in vitamins K, A, and C as well as calcium, potassium, and powerful antioxidants including quercetin and kaempferol. Regular consumption of kale has been associated with reduced risk of heart disease and certain cancers. Kale can be eaten raw in salads, blended into smoothies, or baked into crispy chips. It is vegan, vegetarian, and gluten-free.",
+    "region": "Europe",
+    "type": "Vegetable"
+  },
+  {
+    "id": "83",
+    "text": "Salmon is a nutrient rich fatty fish that is one of the best dietary sources of omega-3 fatty acids, which are essential for brain health, heart health, and reducing inflammation. A 100 gram serving of salmon provides approximately 25 grams of high quality protein along with significant amounts of vitamin B12, vitamin D, and selenium. Regular consumption of salmon has been linked to improved cardiovascular health and cognitive function. Salmon can be grilled, baked, poached, or eaten raw as sashimi. It is gluten-free and suitable for pescatarian diets.",
+    "region": "North Atlantic",
+    "type": "Seafood"
+  },
+  {
+    "id": "84",
+    "text": "Avocado is a creamy and nutrient dense fruit native to Central America that is rich in heart healthy monounsaturated fats, particularly oleic acid. It contains more potassium than bananas and is an excellent source of vitamins K, C, B5, B6, and folate. The healthy fats in avocado help the body absorb fat soluble nutrients from other foods. Avocado is widely used in salads, sandwiches, smoothies, and as guacamole. It is naturally vegan, vegetarian, and gluten-free making it one of the most versatile healthy foods available.",
+    "region": "Central America",
+    "type": "Fruit"
+  },
+  {
+    "id": "85",
+    "text": "Lentils are small lens shaped legumes that are among the most nutritious and affordable plant based protein sources available. One cup of cooked lentils provides approximately 18 grams of protein and 16 grams of fiber supporting muscle growth and digestive health. Lentils are also rich in iron, folate, and manganese. They have a low glycemic index making them beneficial for blood sugar management. Lentils are a staple food in South Asian, Middle Eastern, and Mediterranean cuisines. They are naturally vegan, vegetarian, and gluten-free.",
+    "region": "Middle East",
+    "type": "Legume"
+  },
+  {
+    "id": "86",
+    "text": "Pad Thai is a popular Thai stir fried noodle dish that has become one of the most recognized dishes in the world. It is made with flat rice noodles stir fried with eggs, tofu or shrimp, bean sprouts, and green onions in a flavorful sauce made from tamarind paste, fish sauce, and palm sugar. It is topped with crushed peanuts, lime, and dried chili flakes. Pad Thai was popularized by the Thai government in the 1940s as a national dish to promote Thai identity. It is naturally gluten-free when made with rice noodles.",
+    "region": "Thailand",
+    "type": "Noodle Dish"
+  },
+  {
+    "id": "87",
+    "text": "Paella is a traditional Spanish rice dish originating from the Valencia region that is cooked in a wide shallow pan over an open flame. It is made with short grain rice, saffron, olive oil, and a variety of proteins including chicken, rabbit, seafood, or a combination. The defining feature of paella is the socarrat, the crispy caramelized rice crust that forms at the bottom of the pan. Paella is a communal dish traditionally shared outdoors during family gatherings and celebrations. It is gluten-free and rich in protein and carbohydrates.",
+    "region": "Spain",
+    "type": "Rice Dish"
+  },
+  {
+    "id": "88",
+    "text": "Butter Chicken also known as Murgh Makhani is a mildly spiced and creamy Indian curry that originated in Delhi in the 1950s. It is made with tandoor grilled chicken cooked in a rich tomato based sauce with butter, cream, and aromatic spices including garam masala, cumin, coriander, and fenugreek. Butter Chicken is one of the most popular Indian dishes worldwide and introduced many people globally to Indian cuisine. It is best served with naan bread or basmati rice. The dish can be made gluten-free when served without bread.",
+    "region": "India",
+    "type": "Curry"
+  },
+  {
+    "id": "89",
+    "text": "Tacos are a traditional Mexican street food consisting of a small hand sized corn or wheat tortilla topped with a variety of fillings. Common fillings include grilled meats such as carne asada or al pastor, fresh salsa, guacamole, cilantro, and lime juice. Tacos have deep roots in Mexican indigenous culture and were eaten long before European contact. They are one of the most versatile foods in the world with endless regional variations across Mexico. Corn tortilla tacos are naturally gluten-free and can easily be made vegan with plant based fillings.",
+    "region": "Mexico",
+    "type": "Street Food"
+  },
+  {
+    "id": "90",
+    "text": "Croissant is a buttery and flaky French pastry made using a laminated dough technique where layers of butter are folded repeatedly into the dough to create hundreds of thin crispy layers. Originating in Austria as the kipferl and popularized in France in the 19th century, the croissant has become a global symbol of French bakery culture. It is traditionally eaten at breakfast with coffee or filled with ham and cheese for a savory version. The croissant requires significant skill and time to prepare properly including an overnight resting period for the dough.",
+    "region": "France",
+    "type": "Pastry"
+  }
 ]

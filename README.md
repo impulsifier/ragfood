@@ -89,9 +89,7 @@ The most valuable technical insight was understanding how vector embeddings work
 
 Setting up the environment presented real challenges. Python 3.14 was incompatible with ChromaDB due to Pydantic version conflicts requiring a downgrade to Python 3.11.9. The GitHub MCP server also initially failed because it was configured to use Docker which was not installed.
 
-These troubleshooting experiences were frustrating in the moment but ultimately deepened my understanding of dependency management and environment configuration. Adding the 15 food items also taught me the importance of description quality in RAG systems. The more detailed the text the better the system performs at retrieving relevant results.
-
-The next steps include experimenting with different embedding models to compare retrieval accuracy. Building a RAG system around a different domain such as a business knowledge base is also a priority. This project has given me a strong foundation to continue growing as an AI Builder.
+The most interesting part of testing was pushing the RAG system outside its food domain with random unrelated questions. Asking things like who would win in a fight between a lion and a gorilla and what is the meaning of life produced unexpected food related responses which clearly demonstrated the limitations of RAG systems. This showed that RAG is only as good as the data it is trained on and performs best when queries stay within its knowledge domain.
 
 ---
 

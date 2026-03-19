@@ -106,8 +106,8 @@
     "text": "Lassi is a cold yogurt drink blended with sugar, salt, or fruits like mango.",
     "region": "Punjab",
     "type": "Drink"
-  }, 
-   {
+  },
+  {
     "id": "19",
     "text": "Momo is a type of South Asian dumpling popular in Nepal, filled with meat or vegetables and served with spicy chutney.",
     "region": "Nepal",
@@ -190,8 +190,8 @@
     "text": "Halo-halo is a Filipino dessert made from crushed ice, evaporated milk, and mixed ingredients like sweet beans, fruits, and jellies.",
     "region": "Philippines",
     "type": "Dessert"
-  }, 
-    {
+  },
+  {
     "id": "33",
     "text": "Peking duck is a famous Beijing dish featuring crispy roasted duck served with pancakes, hoisin sauce, and scallions.",
     "region": "China",
@@ -238,218 +238,218 @@
     "text": "Mooncake is a traditional Chinese pastry filled with lotus seed paste or red bean, eaten during the Mid-Autumn Festival.",
     "region": "China",
     "type": "Dessert"
-  }, 
+  },
   {
-  "id": "41",
-  "text": "Kimchi is a traditional Korean side dish made from fermented vegetables, usually cabbage and radish, with chili pepper and garlic.",
-  "region": "Korea",
-  "type": "Side Dish"
-},
-{
-  "id": "42",
-  "text": "Bibimbap is a Korean mixed rice dish topped with sautéed vegetables, sliced meat, a fried egg, and chili paste.",
-  "region": "Korea",
-  "type": "Main Course"
-},
-{
-  "id": "43",
-  "text": "Tteokbokki is a popular Korean street food made of chewy rice cakes in a spicy red sauce.",
-  "region": "Korea",
-  "type": "Snack"
-}, 
-{
-  "id": "44",
-  "text": "Beef noodle soup is a beloved Taiwanese dish made with braised beef, vegetables, and noodles in a flavorful broth.",
-  "region": "Taiwan",
-  "type": "Soup"
-},
-{
-  "id": "45",
-  "text": "Lu rou fan is a classic Taiwanese comfort food of minced pork belly cooked in soy sauce, served over rice.",
-  "region": "Taiwan",
-  "type": "Main Course"
-},
-{
-  "id": "46",
-  "text": "Bubble tea is a Taiwanese drink made with tea, milk, and chewy tapioca pearls.",
-  "region": "Taiwan",
-  "type": "Drink"
-}, 
-{
-  "id": "47",
-  "text": "Char siu is a Cantonese-style barbecued pork known for its sweet and savory glaze.",
-  "region": "Hong Kong",
-  "type": "Main Course"
-},
-{
-  "id": "48",
-  "text": "Egg tarts are a popular Hong Kong dessert consisting of a flaky pastry crust filled with egg custard.",
-  "region": "Hong Kong",
-  "type": "Dessert"
-},
-{
-  "id": "49",
-  "text": "Wonton noodles are a Hong Kong dish made with thin egg noodles and wontons in a clear broth.",
-  "region": "Hong Kong",
-  "type": "Noodle"
-}, 
-{
-  "id": "50",
-  "text": "Meat pie is an iconic Australian dish consisting of a flaky pastry filled with minced meat and gravy.",
-  "region": "Australia",
-  "type": "Snack"
-},
-{
-  "id": "51",
-  "text": "Lamingtons are sponge cakes coated in chocolate and rolled in coconut, a popular Australian dessert.",
-  "region": "Australia",
-  "type": "Dessert"
-} ,
-{
-  "id": "52",
-  "text": "Pavlova is a meringue-based dessert topped with fresh fruit and cream, considered a national dish of New Zealand.",
-  "region": "New Zealand",
-  "type": "Dessert"
-},
-{
-  "id": "53",
-  "text": "Hangi is a traditional Māori method of cooking meat and vegetables in an underground oven.",
-  "region": "New Zealand",
-  "type": "Main Course"
-},
-{
-  "id": "54",
-  "text": "Palusami is a Polynesian dish of taro leaves filled with coconut cream and sometimes meat, baked in banana leaves.",
-  "region": "Samoa, South Pacific",
-  "type": "Main Course"
-},
-{
-  "id": "55",
-  "text": "Oka is a Samoan raw fish salad marinated in citrus and coconut milk, similar to ceviche.",
-  "region": "Samoa, South Pacific",
-  "type": "Appetizer"
-},
-{
-  "id": "56",
-  "text": "Lovo is a Fijian feast where food is wrapped in banana leaves and cooked in an earth oven.",
-  "region": "Fiji, South Pacific",
-  "type": "Main Course"
-}
-,
-{
-  "id": "57",
-  "text": "Kokoda is a Fijian dish of raw fish marinated in lime juice and coconut milk, similar to ceviche.",
-  "region": "Fiji, South Pacific",
-  "type": "Appetizer"
-},
-{
-  "id": "58",
-  "text": "Poke is a Hawaiian dish of diced raw fish, typically seasoned with soy sauce and sesame oil.",
-  "region": "Hawaii, USA",
-  "type": "Appetizer"
-},
-{
-  "id": "59",
-  "text": "Spam musubi is a Hawaiian snack made of rice and Spam wrapped in seaweed.",
-  "region": "Hawaii, USA",
-  "type": "Snack"
-},
-{  "id": "60",
-  "text": "Loco moco is a Hawaiian dish consisting of rice topped with a hamburger patty, fried egg, and brown gravy.",
-  "region": "Hawaii, USA",
-  "type": "Main Course"
-},
-{
-  "id": "61",
-  "text": "Sushi is a Japanese dish of vinegared rice combined with seafood, vegetables, and sometimes tropical fruits.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "62",
-  "text": "Ramen is a Japanese noodle soup dish with Chinese-style wheat noodles served in a meat or fish-based broth.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "63",
-  "text": "Tempura is a Japanese dish of seafood or vegetables that have been battered and deep-fried.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "64",
-  "text": "Miso soup is a traditional Japanese soup consisting of a stock called dashi into which softened miso paste is mixed.",
-  "region": "Japan",
-  "type": "Soup"
-},
-{
-  "id": "65",
-  "text": "Okonomiyaki is a savory Japanese pancake containing a variety of ingredients.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "66",
-  "text": "Hummus is a Middle Eastern dip or spread made from cooked, mashed chickpeas blended with tahini, olive oil, lemon juice, and garlic.",
-  "region": "Middle East",
-  "type": "Appetizer"
-},
-{
-  "id": "67",
-  "text": "Falafel consists of deep-fried balls of ground chickpeas or fava beans, typically served in pita bread.",
-  "region": "Middle East",
-  "type": "Main Course"
-},
-{
-  "id": "68",
-  "text": "Shawarma is a Middle Eastern meat preparation where thin slices of lamb, chicken, or beef are stacked and roasted on a vertical rotisserie.",
-  "region": "Middle East",
-  "type": "Main Course"
-},
-{
-  "id": "69",
-  "text": "Tabbouleh is a Levantine vegetarian salad made of finely chopped parsley, tomatoes, mint, and bulgur.",
-  "region": "Middle East",
-  "type": "Salad"
-},
-{
-  "id": "70",
-  "text": "Baklava is a rich, sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with syrup or honey.",
-  "region": "Middle East",
-  "type": "Dessert"
-},
-{
-  "id": "71",
-  "text": "Buuz are Mongolian steamed dumplings filled with minced meat, typically mutton or beef.",
-  "region": "Mongolia",
-  "type": "Main Course"
-},
-{
-  "id": "72",
-  "text": "Khorkhog is a Mongolian barbecue dish where meat is cooked with hot stones inside a sealed container.",
-  "region": "Mongolia",
-  "type": "Main Course"
-},
-{
-  "id": "73",
-  "text": "Airag is a traditional Mongolian alcoholic drink made from fermented mare's milk.",
-  "region": "Mongolia",
-  "type": "Beverage"
-},
-{
-  "id": "74",
-  "text": "Boortsog are Mongolian deep-fried cookies often served with tea or used as a dessert.",
-  "region": "Mongolia",
-  "type": "Dessert"
-},
-{
-  "id": "75",
-  "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
-  "region": "Mongolia",
-  "type": "Beverage"
-},
-{
+    "id": "41",
+    "text": "Kimchi is a traditional Korean side dish made from fermented vegetables, usually cabbage and radish, with chili pepper and garlic.",
+    "region": "Korea",
+    "type": "Side Dish"
+  },
+  {
+    "id": "42",
+    "text": "Bibimbap is a Korean mixed rice dish topped with sautéed vegetables, sliced meat, a fried egg, and chili paste.",
+    "region": "Korea",
+    "type": "Main Course"
+  },
+  {
+    "id": "43",
+    "text": "Tteokbokki is a popular Korean street food made of chewy rice cakes in a spicy red sauce.",
+    "region": "Korea",
+    "type": "Snack"
+  },
+  {
+    "id": "44",
+    "text": "Beef noodle soup is a beloved Taiwanese dish made with braised beef, vegetables, and noodles in a flavorful broth.",
+    "region": "Taiwan",
+    "type": "Soup"
+  },
+  {
+    "id": "45",
+    "text": "Lu rou fan is a classic Taiwanese comfort food of minced pork belly cooked in soy sauce, served over rice.",
+    "region": "Taiwan",
+    "type": "Main Course"
+  },
+  {
+    "id": "46",
+    "text": "Bubble tea is a Taiwanese drink made with tea, milk, and chewy tapioca pearls.",
+    "region": "Taiwan",
+    "type": "Drink"
+  },
+  {
+    "id": "47",
+    "text": "Char siu is a Cantonese-style barbecued pork known for its sweet and savory glaze.",
+    "region": "Hong Kong",
+    "type": "Main Course"
+  },
+  {
+    "id": "48",
+    "text": "Egg tarts are a popular Hong Kong dessert consisting of a flaky pastry crust filled with egg custard.",
+    "region": "Hong Kong",
+    "type": "Dessert"
+  },
+  {
+    "id": "49",
+    "text": "Wonton noodles are a Hong Kong dish made with thin egg noodles and wontons in a clear broth.",
+    "region": "Hong Kong",
+    "type": "Noodle"
+  },
+  {
+    "id": "50",
+    "text": "Meat pie is an iconic Australian dish consisting of a flaky pastry filled with minced meat and gravy.",
+    "region": "Australia",
+    "type": "Snack"
+  },
+  {
+    "id": "51",
+    "text": "Lamingtons are sponge cakes coated in chocolate and rolled in coconut, a popular Australian dessert.",
+    "region": "Australia",
+    "type": "Dessert"
+  },
+  {
+    "id": "52",
+    "text": "Pavlova is a meringue-based dessert topped with fresh fruit and cream, considered a national dish of New Zealand.",
+    "region": "New Zealand",
+    "type": "Dessert"
+  },
+  {
+    "id": "53",
+    "text": "Hangi is a traditional Māori method of cooking meat and vegetables in an underground oven.",
+    "region": "New Zealand",
+    "type": "Main Course"
+  },
+  {
+    "id": "54",
+    "text": "Palusami is a Polynesian dish of taro leaves filled with coconut cream and sometimes meat, baked in banana leaves.",
+    "region": "Samoa, South Pacific",
+    "type": "Main Course"
+  },
+  {
+    "id": "55",
+    "text": "Oka is a Samoan raw fish salad marinated in citrus and coconut milk, similar to ceviche.",
+    "region": "Samoa, South Pacific",
+    "type": "Appetizer"
+  },
+  {
+    "id": "56",
+    "text": "Lovo is a Fijian feast where food is wrapped in banana leaves and cooked in an earth oven.",
+    "region": "Fiji, South Pacific",
+    "type": "Main Course"
+  },
+  {
+    "id": "57",
+    "text": "Kokoda is a Fijian dish of raw fish marinated in lime juice and coconut milk, similar to ceviche.",
+    "region": "Fiji, South Pacific",
+    "type": "Appetizer"
+  },
+  {
+    "id": "58",
+    "text": "Poke is a Hawaiian dish of diced raw fish, typically seasoned with soy sauce and sesame oil.",
+    "region": "Hawaii, USA",
+    "type": "Appetizer"
+  },
+  {
+    "id": "59",
+    "text": "Spam musubi is a Hawaiian snack made of rice and Spam wrapped in seaweed.",
+    "region": "Hawaii, USA",
+    "type": "Snack"
+  },
+  {
+    "id": "60",
+    "text": "Loco moco is a Hawaiian dish consisting of rice topped with a hamburger patty, fried egg, and brown gravy.",
+    "region": "Hawaii, USA",
+    "type": "Main Course"
+  },
+  {
+    "id": "61",
+    "text": "Sushi is a Japanese dish of vinegared rice combined with seafood, vegetables, and sometimes tropical fruits.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "62",
+    "text": "Ramen is a Japanese noodle soup dish with Chinese-style wheat noodles served in a meat or fish-based broth.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "63",
+    "text": "Tempura is a Japanese dish of seafood or vegetables that have been battered and deep-fried.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "64",
+    "text": "Miso soup is a traditional Japanese soup consisting of a stock called dashi into which softened miso paste is mixed.",
+    "region": "Japan",
+    "type": "Soup"
+  },
+  {
+    "id": "65",
+    "text": "Okonomiyaki is a savory Japanese pancake containing a variety of ingredients.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "66",
+    "text": "Hummus is a Middle Eastern dip or spread made from cooked, mashed chickpeas blended with tahini, olive oil, lemon juice, and garlic.",
+    "region": "Middle East",
+    "type": "Appetizer"
+  },
+  {
+    "id": "67",
+    "text": "Falafel consists of deep-fried balls of ground chickpeas or fava beans, typically served in pita bread.",
+    "region": "Middle East",
+    "type": "Main Course"
+  },
+  {
+    "id": "68",
+    "text": "Shawarma is a Middle Eastern meat preparation where thin slices of lamb, chicken, or beef are stacked and roasted on a vertical rotisserie.",
+    "region": "Middle East",
+    "type": "Main Course"
+  },
+  {
+    "id": "69",
+    "text": "Tabbouleh is a Levantine vegetarian salad made of finely chopped parsley, tomatoes, mint, and bulgur.",
+    "region": "Middle East",
+    "type": "Salad"
+  },
+  {
+    "id": "70",
+    "text": "Baklava is a rich, sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with syrup or honey.",
+    "region": "Middle East",
+    "type": "Dessert"
+  },
+  {
+    "id": "71",
+    "text": "Buuz are Mongolian steamed dumplings filled with minced meat, typically mutton or beef.",
+    "region": "Mongolia",
+    "type": "Main Course"
+  },
+  {
+    "id": "72",
+    "text": "Khorkhog is a Mongolian barbecue dish where meat is cooked with hot stones inside a sealed container.",
+    "region": "Mongolia",
+    "type": "Main Course"
+  },
+  {
+    "id": "73",
+    "text": "Airag is a traditional Mongolian alcoholic drink made from fermented mare's milk.",
+    "region": "Mongolia",
+    "type": "Beverage"
+  },
+  {
+    "id": "74",
+    "text": "Boortsog are Mongolian deep-fried cookies often served with tea or used as a dessert.",
+    "region": "Mongolia",
+    "type": "Dessert"
+  },
+  {
+    "id": "75",
+    "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
+    "region": "Mongolia",
+    "type": "Beverage"
+  },
+  {
     "id": "76",
     "text": "Adobo is a iconic Filipino dish considered the unofficial national dish of the Philippines. It is prepared by marinating chicken or pork in a mixture of vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then slowly braised until tender. The vinegar acts as a natural preservative making it last longer without refrigeration. Adobo is deeply rooted in Filipino culture and every family has their own version passed down through generations. It is gluten-free adaptable and pairs well with steamed white rice.",
     "region": "Philippines",
@@ -538,5 +538,125 @@
     "text": "Croissant is a buttery and flaky French pastry made using a laminated dough technique where layers of butter are folded repeatedly into the dough to create hundreds of thin crispy layers. Originating in Austria as the kipferl and popularized in France in the 19th century, the croissant has become a global symbol of French bakery culture. It is traditionally eaten at breakfast with coffee or filled with ham and cheese for a savory version. The croissant requires significant skill and time to prepare properly including an overnight resting period for the dough.",
     "region": "France",
     "type": "Pastry"
+  },
+  {
+    "id": "91",
+    "text": "Tom Yum is a hot and sour Thai soup that is one of the most internationally recognized dishes in Thai cuisine. It is made with a fragrant broth infused with lemongrass, kaffir lime leaves, galangal, fish sauce, lime juice, and fresh chilies. Common proteins include shrimp or chicken along with mushrooms and tomatoes. Tom Yum is celebrated for its bold and complex flavor profile that balances spicy, sour, salty, and umami simultaneously. It is high in antioxidants from the aromatic herbs and is naturally gluten-free. The soup is a staple in Thai households and street food culture.",
+    "region": "Thailand",
+    "type": "Soup"
+  },
+  {
+    "id": "92",
+    "text": "Massaman Curry is a rich and mildly spiced Thai curry with strong influences from Persian and Indian cuisines brought to Thailand through trade routes centuries ago. It is made with coconut milk, potatoes, onions, peanuts, and slow cooked meat such as beef or chicken in a paste of roasted spices including cardamom, cinnamon, cloves, and star anise. Massaman Curry is considered one of the most complex curries in the world due to its layered spice profile. It is a good source of protein and healthy fats from coconut milk and peanuts. It can be made gluten-free.",
+    "region": "Thailand",
+    "type": "Curry"
+  },
+  {
+    "id": "93",
+    "text": "Hummus is a creamy and nutritious Middle Eastern dip made from blended chickpeas, tahini, lemon juice, garlic, and olive oil. It originated in the Levant region and has been eaten for centuries across the Middle East and Mediterranean. Hummus is an excellent plant based protein source providing approximately 7 grams of protein per 100 grams along with significant amounts of fiber, iron, folate, and healthy fats. It is naturally vegan, vegetarian, and gluten-free making it one of the most universally accessible foods available. Hummus is commonly served with pita bread, vegetables, or as a spread in wraps and sandwiches.",
+    "region": "Middle East",
+    "type": "Dip"
+  },
+  {
+    "id": "94",
+    "text": "Greek Salad also known as Horiatiki is a traditional Mediterranean salad from Greece made with fresh tomatoes, cucumbers, red onions, Kalamata olives, green peppers, and generous chunks of feta cheese drizzled with extra virgin olive oil and dried oregano. It contains no lettuce which distinguishes it from other salads. Greek Salad is rich in vitamins C and K, antioxidants, and heart healthy monounsaturated fats from olive oil. It is naturally vegetarian and gluten-free. The dish reflects the simplicity and freshness of Mediterranean cooking and is deeply embedded in Greek food culture and daily life.",
+    "region": "Greece",
+    "type": "Salad"
+  },
+  {
+    "id": "95",
+    "text": "Shakshuka is a North African and Middle Eastern dish of poached eggs cooked directly in a spiced tomato and pepper sauce. It is believed to have originated in Tunisia and became widely popular across Israel and the broader Middle East. The sauce is made with tomatoes, onions, garlic, cumin, paprika, and chili peppers creating a rich and fragrant base. Shakshuka is high in protein from the eggs and rich in vitamins A and C from the tomato and pepper base. It is naturally vegetarian and gluten-free. The dish is commonly eaten at breakfast or brunch and served directly from the pan.",
+    "region": "North Africa",
+    "type": "Breakfast"
+  },
+  {
+    "id": "96",
+    "text": "Moussaka is a traditional Greek baked dish made with layers of sliced eggplant, spiced ground lamb or beef, and a rich bechamel sauce baked until golden. It is similar in concept to Italian lasagna but uses eggplant instead of pasta sheets. Moussaka is a hearty and filling dish that is rich in protein, calcium from the bechamel, and dietary fiber from the eggplant. It is deeply rooted in Greek culinary tradition and is considered one of the national dishes of Greece. Regional variations exist across the Middle East and Balkans. It is best served warm and pairs well with a fresh salad.",
+    "region": "Greece",
+    "type": "Baked Dish"
+  },
+  {
+    "id": "97",
+    "text": "Falafel is a traditional Middle Eastern street food made from ground chickpeas or fava beans mixed with herbs such as parsley, cilantro, and spices including cumin and coriander, formed into balls or patties and deep fried until crispy. It originated in Egypt and spread across the Middle East becoming one of the most popular street foods in the region. Falafel is high in plant based protein, fiber, iron, and folate. It is naturally vegan and can be made gluten-free with appropriate flour substitutes. It is commonly served in pita bread with tahini sauce, tomatoes, and pickled vegetables as a complete and satisfying meal.",
+    "region": "Middle East",
+    "type": "Street Food"
+  },
+  {
+    "id": "98",
+    "text": "Bibimbap is a iconic Korean rice bowl dish that translates to mixed rice in Korean. It consists of a bowl of warm white rice topped with an assortment of seasoned vegetables such as spinach, bean sprouts, carrots, and mushrooms, a fried egg, sliced beef, and a dollop of spicy gochujang chili paste. Everything is mixed together before eating creating a harmonious combination of flavors and textures. Bibimbap is nutritionally balanced providing carbohydrates, protein, and a wide variety of vitamins and minerals from the mixed vegetables. It is a popular dish in Korean households and restaurants worldwide and can be made vegetarian by omitting the beef.",
+    "region": "Korea",
+    "type": "Rice Bowl"
+  },
+  {
+    "id": "99",
+    "text": "Chia Seeds are tiny black and white seeds from the Salvia hispanica plant native to Mexico and Guatemala. They were a staple food of the ancient Aztec and Mayan civilizations valued for their energy boosting properties. Chia seeds are one of the most nutrient dense foods available, packed with omega-3 fatty acids, fiber, protein, calcium, magnesium, and antioxidants. A single 28 gram serving provides 11 grams of fiber and 4 grams of protein. When soaked in liquid they absorb up to 10 times their weight forming a gel like texture used in puddings and smoothies. They are naturally vegan, vegetarian, and gluten-free.",
+    "region": "Mexico",
+    "type": "Superfood"
+  },
+  {
+    "id": "100",
+    "text": "Edamame are young soybeans harvested before they fully ripen and are a staple snack and appetizer in Japanese cuisine. They are typically steamed or boiled in their pods and lightly salted before serving. Edamame is exceptionally nutritious providing complete plant based protein with all nine essential amino acids, making it one of the few plant foods comparable to animal protein sources. One cup of cooked edamame provides approximately 17 grams of protein along with significant amounts of fiber, vitamin K, folate, and iron. Edamame is naturally vegan, vegetarian, and gluten-free. It is widely consumed across East Asia and has grown in global popularity as a healthy snack.",
+    "region": "Japan",
+    "type": "Snack"
+  },
+  {
+    "id": "101",
+    "text": "Turmeric is a bright yellow spice derived from the root of the Curcuma longa plant native to South Asia and has been used in Ayurvedic medicine for thousands of years. The active compound curcumin gives turmeric its distinctive color and is responsible for its powerful anti-inflammatory and antioxidant properties. Regular consumption of turmeric has been linked to reduced inflammation, improved brain function, and lower risk of chronic diseases. It is commonly used in Indian curries, golden milk, and health supplements. Turmeric is naturally vegan, vegetarian, and gluten-free. It is best absorbed with black pepper which enhances curcumin bioavailability by up to 2000 percent.",
+    "region": "South Asia",
+    "type": "Spice"
+  },
+  {
+    "id": "102",
+    "text": "Sweet Potato is a nutritious root vegetable native to Central and South America that has been cultivated for thousands of years. It is naturally sweet and can be baked, boiled, mashed, or roasted. Sweet potatoes are exceptionally rich in beta-carotene which the body converts to vitamin A, making them one of the best dietary sources of this essential nutrient. They also provide significant amounts of vitamin C, potassium, manganese, and dietary fiber. Sweet potatoes have a lower glycemic index than regular potatoes making them a better option for blood sugar management. They are naturally vegan, vegetarian, and gluten-free and are a staple comfort food across many cultures.",
+    "region": "Central America",
+    "type": "Vegetable"
+  },
+  {
+    "id": "103",
+    "text": "Beef Pho is a Vietnamese noodle soup that is considered the national dish of Vietnam and one of the most beloved comfort foods in Southeast Asian cuisine. It consists of a deeply aromatic beef bone broth that has been simmered for hours with spices including star anise, cinnamon, cloves, and ginger. The broth is served over flat rice noodles with thin slices of beef, fresh bean sprouts, Thai basil, lime, and chili. Pho is rich in collagen and minerals from the long cooked bone broth and provides a good source of protein. It is naturally gluten-free and represents the warmth and hospitality of Vietnamese food culture.",
+    "region": "Vietnam",
+    "type": "Noodle Soup"
+  },
+  {
+    "id": "104",
+    "text": "Mac and Cheese is a quintessential American comfort food made with cooked macaroni pasta smothered in a rich and creamy cheese sauce typically made from cheddar cheese, butter, milk, and flour. It originated in Europe but became deeply embedded in American food culture through the 19th and 20th centuries. Mac and Cheese is enjoyed by people of all ages and is associated with warmth, nostalgia, and home cooking. It is a good source of calcium and protein from the cheese and can be enhanced with breadcrumb toppings, bacon, or vegetables. Regional variations across the United States include baked versions with a crispy golden crust that are particularly popular in the American South.",
+    "region": "United States",
+    "type": "Comfort Food"
+  },
+  {
+    "id": "105",
+    "text": "Ramen is a Japanese noodle soup dish that has evolved from its Chinese origins into one of Japan's most iconic comfort foods and a global culinary phenomenon. It consists of wheat noodles served in a richly flavored broth that varies by region, with the four main styles being shoyu (soy sauce), miso, shio (salt), and tonkotsu (pork bone). Toppings typically include chashu pork, soft boiled eggs marinated in soy sauce, nori seaweed, bamboo shoots, and green onions. Each region of Japan has its own distinct ramen style making it one of the most regionally diverse dishes in the country. Ramen is a deeply comforting and satisfying meal enjoyed by millions worldwide.",
+    "region": "Japan",
+    "type": "Noodle Soup"
+  },
+  {
+    "id": "106",
+    "text": "Jollof Rice is a beloved West African one pot rice dish that is considered a cultural institution across Nigeria, Ghana, Senegal, and other West African countries. It is made by cooking long grain rice in a rich tomato and pepper base with onions, garlic, and a blend of spices including thyme, bay leaves, and bouillon. Jollof Rice is the centerpiece of celebrations, parties, and family gatherings across West Africa and has sparked a friendly ongoing rivalry between Nigerian and Ghanaian versions. It is commonly served with fried plantains, coleslaw, and grilled or fried chicken. The smoky flavor from cooking over high heat known as the party jollof effect is considered the hallmark of a perfect Jollof Rice.",
+    "region": "West Africa",
+    "type": "Rice Dish"
+  },
+  {
+    "id": "107",
+    "text": "Pierogi are traditional Polish dumplings made from unleavened dough stuffed with a variety of fillings including mashed potatoes and cheese, sauerkraut and mushrooms, ground meat, or fruit for sweet versions. They are boiled and then often pan fried in butter with onions until golden and crispy on the outside. Pierogi are deeply embedded in Polish culture and are considered a national dish served at Christmas, Easter, and family celebrations. They represent the hearty and satisfying nature of Eastern European comfort food. Potato and cheese pierogi are particularly beloved and are commonly topped with sour cream and caramelized onions. Vegetarian versions are widely available.",
+    "region": "Poland",
+    "type": "Dumpling"
+  },
+  {
+    "id": "108",
+    "text": "Biryani is a fragrant and celebratory South Asian rice dish made by layering long grain basmati rice with spiced meat such as chicken, lamb, or beef, saffron infused milk, caramelized onions, and aromatic herbs. It is slow cooked using the dum method where the pot is sealed with dough or foil to trap steam and allow the flavors to meld together. Biryani originated in the royal kitchens of the Mughal Empire and has since become one of the most popular dishes across India, Pakistan, and Bangladesh. Each region has its own distinct style including Hyderabadi, Lucknowi, and Kolkata Biryani. It is a festive dish associated with weddings, celebrations, and special occasions.",
+    "region": "South Asia",
+    "type": "Rice Dish"
+  },
+  {
+    "id": "109",
+    "text": "Goulash is a hearty Hungarian stew made with slow cooked beef, onions, tomatoes, and generous amounts of sweet Hungarian paprika that gives the dish its distinctive deep red color and rich flavor. It originated as a simple meal of Hungarian cattle herders in the 9th century and evolved into one of the most celebrated dishes in Central European cuisine. Goulash is deeply warming and comforting particularly during cold winters and is considered the national dish of Hungary. It is commonly served with egg noodles, bread dumplings, or crusty bread to soak up the rich paprika sauce. Goulash is a good source of protein and iron from the beef.",
+    "region": "Hungary",
+    "type": "Stew"
+  },
+  {
+    "id": "110",
+    "text": "Brigadeiro is a beloved Brazilian chocolate truffle that is the most popular sweet treat in Brazil and an essential part of any Brazilian birthday celebration. It is made from just three simple ingredients: sweetened condensed milk, cocoa powder, and butter, cooked together until thick and then rolled into balls and coated in chocolate sprinkles. Brigadeiro was created in Brazil in the 1940s and named after Brigadier Eduardo Gomes. It is deeply embedded in Brazilian culture and no birthday party is complete without a platter of these chocolate truffles. The simplicity of the recipe makes it accessible to home cooks of all skill levels and it is enjoyed by people of all ages across Brazil.",
+    "region": "Brazil",
+    "type": "Dessert"
   }
 ]
